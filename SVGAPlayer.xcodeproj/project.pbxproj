@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2426DBAB2700816900A2FFD7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2426DBA92700816800A2FFD7 /* UIImage+Resize.m */; };
 		63712E6521787950001AE014 /* heartbeat.svga in Resources */ = {isa = PBXBuildFile; fileRef = 63712E6421787950001AE014 /* heartbeat.svga */; };
 		63712E6821787A45001AE014 /* SVGAAudioEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 63712E6721787A45001AE014 /* SVGAAudioEntity.m */; };
 		63E817012178809D001D2D62 /* SVGAAudioLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E817002178809D001D2D62 /* SVGAAudioLayer.m */; };
@@ -44,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		1DDA5FF396660C7C932DF9B8 /* libPods-SVGAPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVGAPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2426DBA92700816800A2FFD7 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		2426DBAA2700816800A2FFD7 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		63712E6421787950001AE014 /* heartbeat.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = heartbeat.svga; sourceTree = "<group>"; };
 		63712E6621787A45001AE014 /* SVGAAudioEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVGAAudioEntity.h; sourceTree = "<group>"; };
 		63712E6721787A45001AE014 /* SVGAAudioEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGAAudioEntity.m; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				90D7CA081F7E2D4D006E74F0 /* pbobjc */,
+				2426DBAA2700816800A2FFD7 /* UIImage+Resize.h */,
+				2426DBA92700816800A2FFD7 /* UIImage+Resize.m */,
 				90A676F81D13A81F008A69F3 /* SVGA.h */,
 				90A676F91D13A81F008A69F3 /* SVGA.m */,
 				90A676FB1D13A82A008A69F3 /* SVGAParser.h */,
@@ -345,6 +350,7 @@
 				90A677031D13AE19008A69F3 /* SVGAVideoEntity.m in Sources */,
 				90A364DA1E5AED04009347F1 /* SVGAVideoSpriteFrameEntity.m in Sources */,
 				63712E6821787A45001AE014 /* SVGAAudioEntity.m in Sources */,
+				2426DBAB2700816900A2FFD7 /* UIImage+Resize.m in Sources */,
 				63E817012178809D001D2D62 /* SVGAAudioLayer.m in Sources */,
 				90A364D11E5AEC11009347F1 /* SVGABitmapLayer.m in Sources */,
 				904D41F81D223DD20085A21A /* SVGABezierPath.m in Sources */,
